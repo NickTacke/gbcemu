@@ -1,0 +1,12 @@
+#pragma once
+
+using Byte = unsigned char;
+using Word = unsigned short;
+
+using u32 = unsigned int;
+using s32 = signed int;
+
+/* All opcodes */
+static constexpr Byte
+	INS_JSR_ABS = 0x20,
+	INS_LDA_IM = 0xA9;

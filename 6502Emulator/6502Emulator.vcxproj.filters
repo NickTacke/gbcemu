@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\Components">
+      <UniqueIdentifier>{d50f9e5a-3e74-4504-886a-af66dbafabe2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Components\CPU">
+      <UniqueIdentifier>{b4b1107d-e158-4da9-990a-c74c3108c254}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Components\CPU\Instructions">
+      <UniqueIdentifier>{83f494fd-2e41-4143-8c9f-0add98a468ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Components\CPU\Addressing">
+      <UniqueIdentifier>{14168dde-22cf-4b17-acdc-f2a177ca095b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Components\CPU\Opcodes">
+      <UniqueIdentifier>{3ca16d38-d000-4840-8d96-7894323d91de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Components\CPU\Addressing\LDA">
+      <UniqueIdentifier>{e02e9c96-6403-4f88-b835-8eac9915d5c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Components\CPU\Instructions\JSR">
+      <UniqueIdentifier>{28c0cf4e-61a1-4a24-9631-5fce32e5add1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="6502Emulator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="6502.cpp">
+      <Filter>Resource Files\Components\CPU</Filter>
+    </ClCompile>
+    <ClCompile Include="LDA.cpp">
+      <Filter>Resource Files\Components\CPU\Addressing\LDA</Filter>
+    </ClCompile>
+    <ClCompile Include="JSR.cpp">
+      <Filter>Resource Files\Components\CPU\Instructions\JSR</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="6502.h">
+      <Filter>Resource Files\Components\CPU</Filter>
+    </ClInclude>
+    <ClInclude Include="Opcodes.h">
+      <Filter>Resource Files\Components\CPU\Opcodes</Filter>
+    </ClInclude>
+    <ClInclude Include="LDA.h">
+      <Filter>Resource Files\Components\CPU\Addressing\LDA</Filter>
+    </ClInclude>
+    <ClInclude Include="JSR.h">
+      <Filter>Resource Files\Components\CPU\Instructions\JSR</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

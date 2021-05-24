@@ -1,0 +1,13 @@
+Debug/
+.vs/
+*.obj
+*.pdb
+*.ilk
+*.ipch
+*.idb
+*.tlog
+*.lastbuildstate
+*.exe
+*.recipe
+*.log
+gen2.py

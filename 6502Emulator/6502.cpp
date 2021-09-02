@@ -138,3 +138,4 @@ u32 CPU::Execute(u32 Cycles, Memory& memory)
 
 	return (CyclesCopy - Cycles);
 }
+// cpu: clarify branch-target resolution

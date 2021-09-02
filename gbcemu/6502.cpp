@@ -52,6 +52,7 @@ void CPU::Reset(Memory& memory)
 	JSRHandler = JSR(this);
 
 	LDAHandler = LDA(this);
+	LDXHandler = LDX(this);
 
 	/* Rest the program counter and stack pointer */
 	PC = 0xFFFC;
@@ -125,6 +126,13 @@ u32 CPU::Execute(u32 Cycles, Memory& memory)
 			break;
 		}
 
+		// LDX
+		case INS_LDX:
+		{
+			LDXHandler.INS_LDX_H(Cycles, memory);
+			break;
+		}
+		
 		// INSTRUCTION NOT FOUND
 		default:
 		{

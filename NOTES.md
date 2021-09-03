@@ -15,3 +15,4 @@
 - clarified register-aliasing rules for the load/store group.
 - added a note on cycle-accurate vs cycle-approximate modes.
 - mapped the interrupt-flag register.
+- added WRAM bank selection for the switchable banks.

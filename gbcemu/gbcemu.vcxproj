@@ -179,3 +179,5 @@
 <!-- build: split debug and release property sheets -->
 
 <!-- build: enable the deterministic-iteration guard -->
+
+<!-- build: enable the cycle-assert debug build -->

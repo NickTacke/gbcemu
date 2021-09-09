@@ -52,4 +52,5 @@ static constexpr Byte
 	INS_SUBA_IM = 0x28,
 	INS_XORA = 0x39,
 	INS_SWAP = 0x00,
-	INS_JNC = 0x20;
+	INS_JNC = 0x20,
+	INS_RRA = 0x09;

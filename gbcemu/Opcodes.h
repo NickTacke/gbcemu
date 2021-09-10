@@ -53,4 +53,5 @@ static constexpr Byte
 	INS_XORA = 0x39,
 	INS_SWAP = 0x00,
 	INS_JNC = 0x20,
-	INS_RRA = 0x09;
+	INS_RRA = 0x09,
+	INS_DJNZ0 = 0x20;

@@ -162,3 +162,4 @@
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
 </Project>
+<!-- build: ignore generated test vectors in clean -->

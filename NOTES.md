@@ -16,3 +16,4 @@
 - added a note on cycle-accurate vs cycle-approximate modes.
 - mapped the interrupt-flag register.
 - added WRAM bank selection for the switchable banks.
+- documented the interrupt-architecture overview

@@ -12,4 +12,5 @@ static constexpr Byte
 	INS_ADDA = 0x08,
 	INS_ADDA_IM = 0x08,
 	INS_ANDA = 0x29,
-	INS_CALL = 0x04;
+	INS_CALL = 0x04,
+	INS_CCA = 0x98;

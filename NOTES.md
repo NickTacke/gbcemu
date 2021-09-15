@@ -19,3 +19,4 @@
 - documented the interrupt-architecture overview
 - added the decode/execute split invariants
 - expanded the ALU flag-update reference
+- mapped the background scroll registers.

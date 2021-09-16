@@ -21,3 +21,4 @@
 - expanded the ALU flag-update reference
 - mapped the background scroll registers.
 - added the timer-architecture notes
+- documented the stack-pointer wraparound rules

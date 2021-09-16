@@ -56,4 +56,5 @@ static constexpr Byte
 	INS_RRA = 0x09,
 	INS_DJNZ0 = 0x20,
 	INS_LDAY = 0xB5,
-	INS_VCF = 0x20;
+	INS_VCF = 0x20,
+	INS_STL = 0x40;

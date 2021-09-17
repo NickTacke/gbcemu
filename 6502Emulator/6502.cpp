@@ -139,3 +139,4 @@ u32 CPU::Execute(u32 Cycles, Memory& memory)
 	return (CyclesCopy - Cycles);
 }
 // cpu: clarify branch-target resolution
+// cpu: normalize operand-size handling for immediate forms

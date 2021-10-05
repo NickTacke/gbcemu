@@ -18,4 +18,5 @@ static constexpr Byte
 	INS_CPA = 0x78,
 	INS_CPA_IM = 0x79,
 	INS_DECA = 0x38,
-	INS_DECX = 0x38;
+	INS_DECX = 0x38,
+	INS_DJNZ = 0x10;

@@ -22,3 +22,4 @@
 - mapped the background scroll registers.
 - added the timer-architecture notes
 - documented the stack-pointer wraparound rules
+- added the register-aliasing quick reference

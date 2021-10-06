@@ -23,3 +23,4 @@
 - added the timer-architecture notes
 - documented the stack-pointer wraparound rules
 - added the register-aliasing quick reference
+- added the build-and-run quick start

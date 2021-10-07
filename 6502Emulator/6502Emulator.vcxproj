@@ -163,3 +163,5 @@
   </ImportGroup>
 </Project>
 <!-- build: ignore generated test vectors in clean -->
+
+<!-- build: tidy include paths -->

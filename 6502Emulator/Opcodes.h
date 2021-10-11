@@ -20,4 +20,5 @@ static constexpr Byte
 	INS_DECA = 0x38,
 	INS_DECX = 0x38,
 	INS_DJNZ = 0x10,
-	INS_HALT = 0x77;
+	INS_HALT = 0x77,
+	INS_INCA = 0x18;

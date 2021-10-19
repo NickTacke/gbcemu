@@ -22,4 +22,5 @@ static constexpr Byte
 	INS_DJNZ = 0x10,
 	INS_HALT = 0x77,
 	INS_INCA = 0x18,
-	INS_INCX = 0x18;
+	INS_INCX = 0x18,
+	INS_JMP = 0x4C;

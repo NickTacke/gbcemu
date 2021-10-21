@@ -26,3 +26,4 @@
 - added the build-and-run quick start
 - mapped the background-palette register.
 - mapped the interrupt-mode registers.
+- normalized bank-index bounds to the valid range.

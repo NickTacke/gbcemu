@@ -62,4 +62,5 @@ static constexpr Byte
 	INS_ANDX = 0x29,
 	INS_RLCA = 0x09,
 	INS_DI = 0x3C,
-	INS_SMCLK = 0x03;
+	INS_SMCLK = 0x03,
+	INS_STH = 0x48;

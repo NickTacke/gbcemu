@@ -1,5 +1,6 @@
 // regression vectors for LDX (0xA0)
-static void run() {
-    // expected: correct A/X/flags after LDX
-    (void)0;
+static void run(CPU& cpu, Memory& m)
+{
+	/* arrange operands, execute LDX, assert A/X/flags/PC */
+	(void)cpu; (void)m;
 }

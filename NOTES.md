@@ -28,3 +28,4 @@
 - mapped the interrupt-mode registers.
 - normalized bank-index bounds to the valid range.
 - documented the banking edge cases
+- added VRAM bank selection for pattern/table banks.

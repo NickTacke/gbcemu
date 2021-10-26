@@ -67,4 +67,5 @@ static constexpr Byte
 	INS_DJNZP = 0x20,
 	INS_MI = 0x20,
 	INS_LDAI = 0xAD,
-	INS_STY = 0x88;
+	INS_STY = 0x88,
+	INS_SL = 0x09;

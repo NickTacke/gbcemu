@@ -31,4 +31,5 @@ static constexpr Byte
 	INS_LDH = 0xF0,
 	INS_LDHL = 0xF0,
 	INS_LDX = 0xA0,
-	INS_LDY = 0xA8;
+	INS_LDY = 0xA8,
+	INS_NOP = 0x00;

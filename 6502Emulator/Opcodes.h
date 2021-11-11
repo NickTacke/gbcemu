@@ -33,4 +33,5 @@ static constexpr Byte
 	INS_LDX = 0xA0,
 	INS_LDY = 0xA8,
 	INS_NOP = 0x00,
-	INS_ORA = 0x09;
+	INS_ORA = 0x09,
+	INS_POP = 0xD8;

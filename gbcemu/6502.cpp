@@ -52,6 +52,7 @@ void CPU::Reset(Memory& memory)
 	JSRHandler = JSR(this);
 
 	LDAHandler = LDA(this);
+	LDAYHandler = LDAY(this);
 	LDAXHandler = LDAX(this);
 	LDAIHandler = LDAI(this);
 	LDHLHandler = LDHL(this);
@@ -186,6 +187,13 @@ u32 CPU::Execute(u32 Cycles, Memory& memory)
 		case INS_LDAX:
 		{
 			LDAXHandler.INS_LDAX_H(Cycles, memory);
+			break;
+		}
+		
+		// LDAY
+		case INS_LDAY:
+		{
+			LDAYHandler.INS_LDAY_H(Cycles, memory);
 			break;
 		}
 		

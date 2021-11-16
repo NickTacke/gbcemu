@@ -31,3 +31,4 @@
 - added VRAM bank selection for pattern/table banks.
 - mapped the current-line register.
 - documented the cycle-approximate vs accurate modes
+- mapped the timer0 overflow interrupt source.

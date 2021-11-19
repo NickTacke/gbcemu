@@ -165,3 +165,5 @@
 <!-- build: ignore generated test vectors in clean -->
 
 <!-- build: tidy include paths -->
+
+<!-- build: raise the warning level -->

@@ -36,4 +36,5 @@ static constexpr Byte
 	INS_ORA = 0x09,
 	INS_POP = 0xD8,
 	INS_PUSH = 0xE8,
-	INS_RET = 0x0C;
+	INS_RET = 0x0C,
+	INS_RETN = 0xD0;

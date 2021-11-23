@@ -37,4 +37,5 @@ static constexpr Byte
 	INS_POP = 0xD8,
 	INS_PUSH = 0xE8,
 	INS_RET = 0x0C,
-	INS_RETN = 0xD0;
+	INS_RETN = 0xD0,
+	INS_RST0 = 0xB0;

@@ -3,3 +3,4 @@
 - clarified the decode/execute split and dispatch invariants.
 - documented memory-map layout and banking assumptions.
 - expanded the instruction-status reference table.
+- documented known-unsupported instructions and their status.

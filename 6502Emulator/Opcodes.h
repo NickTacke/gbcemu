@@ -39,4 +39,5 @@ static constexpr Byte
 	INS_RET = 0x0C,
 	INS_RETN = 0xD0,
 	INS_RST0 = 0xB0,
-	INS_RST1 = 0xB4;
+	INS_RST1 = 0xB4,
+	INS_RST2 = 0xB8;

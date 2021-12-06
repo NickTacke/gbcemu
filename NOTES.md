@@ -32,3 +32,4 @@
 - mapped the current-line register.
 - documented the cycle-approximate vs accurate modes
 - mapped the timer0 overflow interrupt source.
+- documented the memory-map and banking layout

@@ -4,3 +4,4 @@
 - documented memory-map layout and banking assumptions.
 - expanded the instruction-status reference table.
 - documented known-unsupported instructions and their status.
+- added a quick-start section for running the test harness.

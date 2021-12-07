@@ -33,3 +33,4 @@
 - documented the cycle-approximate vs accurate modes
 - mapped the timer0 overflow interrupt source.
 - documented the memory-map and banking layout
+- documented the regression-test methodology

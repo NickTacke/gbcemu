@@ -75,4 +75,5 @@ static constexpr Byte
 	INS_JRA = 0x4C,
 	INS_BIT = 0x24,
 	INS_JNZ = 0x20,
-	INS_XORX = 0x39;
+	INS_XORX = 0x39,
+	INS_EI = 0x3C;

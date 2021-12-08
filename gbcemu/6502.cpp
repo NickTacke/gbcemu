@@ -52,6 +52,7 @@ void CPU::Reset(Memory& memory)
 	JSRHandler = JSR(this);
 
 	LDAHandler = LDA(this);
+	STYHandler = STY(this);
 	STXHandler = STX(this);
 	STAHandler = STA(this);
 	LDAYHandler = LDAY(this);
@@ -210,6 +211,13 @@ u32 CPU::Execute(u32 Cycles, Memory& memory)
 		case INS_STX:
 		{
 			STXHandler.INS_STX_H(Cycles, memory);
+			break;
+		}
+		
+		// STY
+		case INS_STY:
+		{
+			STYHandler.INS_STY_H(Cycles, memory);
 			break;
 		}
 		

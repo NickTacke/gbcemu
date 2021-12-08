@@ -183,3 +183,5 @@
 <!-- build: enable the cycle-assert debug build -->
 
 <!-- build: enable the address-sanitizer test config -->
+
+<!-- build: add a coverage-report target -->

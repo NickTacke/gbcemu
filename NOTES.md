@@ -35,3 +35,4 @@
 - documented the memory-map and banking layout
 - documented the regression-test methodology
 - mapped P36 for the timer0 gate.
+- added the operand-resolution quick reference

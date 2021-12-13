@@ -167,3 +167,5 @@
 <!-- build: tidy include paths -->
 
 <!-- build: raise the warning level -->
+
+<!-- build: gate the smoke-test entry point behind a macro -->

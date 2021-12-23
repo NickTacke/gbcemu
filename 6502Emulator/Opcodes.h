@@ -46,4 +46,5 @@ static constexpr Byte
 	INS_RST5 = 0xC4,
 	INS_STA = 0x85,
 	INS_STD = 0xE0,
-	INS_STE = 0xE8;
+	INS_STE = 0xE8,
+	INS_STX = 0x8A;

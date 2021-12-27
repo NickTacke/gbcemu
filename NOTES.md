@@ -6,3 +6,4 @@
 - documented known-unsupported instructions and their status.
 - added a quick-start section for running the test harness.
 - documented the limits of the current memory model.
+- added a troubleshooting note for common build failures.

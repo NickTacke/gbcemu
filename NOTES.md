@@ -37,3 +37,4 @@
 - mapped P36 for the timer0 gate.
 - added the operand-resolution quick reference
 - mapped the B bus-direction register.
+- documented the register-file conventions

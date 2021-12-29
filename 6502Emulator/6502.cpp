@@ -141,3 +141,4 @@ u32 CPU::Execute(u32 Cycles, Memory& memory)
 // cpu: clarify branch-target resolution
 // cpu: normalize operand-size handling for immediate forms
 // cpu: bound the program-counter wraparound
+// cpu: factor the decode dispatch into a data-driven table

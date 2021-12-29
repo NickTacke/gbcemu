@@ -78,4 +78,5 @@ static constexpr Byte
 	INS_XORX = 0x39,
 	INS_EI = 0x3C,
 	INS_VCC = 0x20,
-	INS_CALLNZ = 0x60;
+	INS_CALLNZ = 0x60,
+	INS_JP = 0x20;

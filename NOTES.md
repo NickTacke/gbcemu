@@ -38,3 +38,4 @@
 - added the operand-resolution quick reference
 - mapped the B bus-direction register.
 - documented the register-file conventions
+- documented known-unsupported instructions and status

@@ -142,3 +142,4 @@ u32 CPU::Execute(u32 Cycles, Memory& memory)
 // cpu: normalize operand-size handling for immediate forms
 // cpu: bound the program-counter wraparound
 // cpu: factor the decode dispatch into a data-driven table
+// cpu: annotate the exception/undefined-opcode path

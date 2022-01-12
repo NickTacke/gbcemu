@@ -169,3 +169,5 @@
 <!-- build: raise the warning level -->
 
 <!-- build: gate the smoke-test entry point behind a macro -->
+
+<!-- build: enable deterministic-iteration guard -->

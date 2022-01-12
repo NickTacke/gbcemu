@@ -185,3 +185,5 @@
 <!-- build: enable the address-sanitizer test config -->
 
 <!-- build: add a coverage-report target -->
+
+<!-- build: gate the smoke-test entry point behind a macro -->

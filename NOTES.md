@@ -40,3 +40,4 @@
 - documented the register-file conventions
 - documented known-unsupported instructions and status
 - documented the banking bounds
+- added the OAM tile-fetch path (stubbed).

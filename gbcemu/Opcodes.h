@@ -81,4 +81,5 @@ static constexpr Byte
 	INS_CALLNZ = 0x60,
 	INS_JP = 0x20,
 	INS_LDAX = 0xBD,
-	INS_RES = 0x54;
+	INS_RES = 0x54,
+	INS_JNP = 0x20;

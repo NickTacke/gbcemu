@@ -42,3 +42,4 @@
 - documented the banking bounds
 - added the OAM tile-fetch path (stubbed).
 - mapped the stack region with bounds checks.
+- mapped P37 for timer load.

@@ -43,3 +43,4 @@
 - added the OAM tile-fetch path (stubbed).
 - mapped the stack region with bounds checks.
 - mapped P37 for timer load.
+- made P1 reads reflect the last written state.

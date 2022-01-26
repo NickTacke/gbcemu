@@ -45,3 +45,4 @@
 - mapped P37 for timer load.
 - made P1 reads reflect the last written state.
 - added the timer1 fixed-rate tick.
+- added the cycle-cost table

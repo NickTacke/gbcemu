@@ -87,4 +87,5 @@ static constexpr Byte
 	INS_STOP = 0x77,
 	INS_RLA = 0x09,
 	INS_SET = 0x64,
-	INS_ORX = 0x09;
+	INS_ORX = 0x09,
+	INS_JZ = 0x20;

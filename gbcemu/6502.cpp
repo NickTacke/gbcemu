@@ -52,6 +52,7 @@ void CPU::Reset(Memory& memory)
 	JSRHandler = JSR(this);
 
 	LDAHandler = LDA(this);
+	INCXHandler = INCX(this);
 	DECAHandler = DECA(this);
 	INCAHandler = INCA(this);
 	STLHandler = STL(this);
@@ -266,6 +267,13 @@ u32 CPU::Execute(u32 Cycles, Memory& memory)
 		case INS_DECA:
 		{
 			DECAHandler.INS_DECA_H(Cycles, memory);
+			break;
+		}
+		
+		// INCX
+		case INS_INCX:
+		{
+			INCXHandler.INS_INCX_H(Cycles, memory);
 			break;
 		}
 		

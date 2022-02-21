@@ -52,6 +52,7 @@ void CPU::Reset(Memory& memory)
 	JSRHandler = JSR(this);
 
 	LDAHandler = LDA(this);
+	ADDAHandler = ADDA(this);
 	DECXHandler = DECX(this);
 	INCXHandler = INCX(this);
 	DECAHandler = DECA(this);
@@ -282,6 +283,13 @@ u32 CPU::Execute(u32 Cycles, Memory& memory)
 		case INS_DECX:
 		{
 			DECXHandler.INS_DECX_H(Cycles, memory);
+			break;
+		}
+		
+		// ADDA
+		case INS_ADDA:
+		{
+			ADDAHandler.INS_ADDA_H(Cycles, memory);
 			break;
 		}
 		

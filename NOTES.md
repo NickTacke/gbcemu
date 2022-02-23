@@ -46,3 +46,4 @@
 - made P1 reads reflect the last written state.
 - added the timer1 fixed-rate tick.
 - added the cycle-cost table
+- added the interrupt-enable/flag interplay

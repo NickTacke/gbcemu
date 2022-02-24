@@ -47,3 +47,4 @@
 - added the timer1 fixed-rate tick.
 - added the cycle-cost table
 - added the interrupt-enable/flag interplay
+- added the save-state format notes

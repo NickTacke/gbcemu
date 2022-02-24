@@ -52,6 +52,7 @@ void CPU::Reset(Memory& memory)
 	JSRHandler = JSR(this);
 
 	LDAHandler = LDA(this);
+	ANDXHandler = ANDX(this);
 	SUBAHandler = SUBA(this);
 	ADDAHandler = ADDA(this);
 	DECXHandler = DECX(this);
@@ -298,6 +299,13 @@ u32 CPU::Execute(u32 Cycles, Memory& memory)
 		case INS_SUBA:
 		{
 			SUBAHandler.INS_SUBA_H(Cycles, memory);
+			break;
+		}
+		
+		// ANDX
+		case INS_ANDX:
+		{
+			ANDXHandler.INS_ANDX_H(Cycles, memory);
 			break;
 		}
 		

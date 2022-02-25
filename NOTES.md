@@ -48,3 +48,4 @@
 - added the cycle-cost table
 - added the interrupt-enable/flag interplay
 - added the save-state format notes
+- factored banking into the write accessor.

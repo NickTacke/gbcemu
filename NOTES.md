@@ -49,3 +49,4 @@
 - added the interrupt-enable/flag interplay
 - added the save-state format notes
 - factored banking into the write accessor.
+- documented the display-timing assumptions

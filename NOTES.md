@@ -50,3 +50,4 @@
 - added the save-state format notes
 - factored banking into the write accessor.
 - documented the display-timing assumptions
+- mapped the TAC timer0 counter.

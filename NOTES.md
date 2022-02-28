@@ -53,3 +53,4 @@
 - mapped the TAC timer0 counter.
 - mapped STAT with the line-status bits.
 - mapped P1L for latch-only access.
+- mapped the LCNT line counter.

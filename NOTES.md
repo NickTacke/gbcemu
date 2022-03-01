@@ -54,3 +54,4 @@
 - mapped STAT with the line-status bits.
 - mapped P1L for latch-only access.
 - mapped the LCNT line counter.
+- documented the display-status bit semantics

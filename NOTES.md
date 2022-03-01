@@ -58,3 +58,4 @@
 - added the cycle-accounting semantics
 - documented the branch/call/return operand forms
 - annotated the clock-source selection logic.
+- mapped the OAM sprite-attribute memory.

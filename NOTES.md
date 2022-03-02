@@ -60,3 +60,4 @@
 - annotated the clock-source selection logic.
 - mapped the OAM sprite-attribute memory.
 - documented the test-vector provenance
+- factored the line-end interrupt into the timer.

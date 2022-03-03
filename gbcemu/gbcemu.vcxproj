@@ -187,3 +187,5 @@
 <!-- build: add a coverage-report target -->
 
 <!-- build: gate the smoke-test entry point behind a macro -->
+
+<!-- build: raise the warning level -->

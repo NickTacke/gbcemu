@@ -61,3 +61,4 @@
 - mapped the OAM sprite-attribute memory.
 - documented the test-vector provenance
 - factored the line-end interrupt into the timer.
+- annotated the full memory-map layout in the accessor.

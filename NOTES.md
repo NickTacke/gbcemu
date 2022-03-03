@@ -62,3 +62,4 @@
 - documented the test-vector provenance
 - factored the line-end interrupt into the timer.
 - annotated the full memory-map layout in the accessor.
+- mapped the object-palette registers.

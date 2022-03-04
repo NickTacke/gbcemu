@@ -64,3 +64,4 @@
 - annotated the full memory-map layout in the accessor.
 - mapped the object-palette registers.
 - guarded word accesses that cross a bank boundary.
+- factored timer resets through the P37 load.

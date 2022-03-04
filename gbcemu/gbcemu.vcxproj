@@ -191,3 +191,5 @@
 <!-- build: raise the warning level -->
 
 <!-- build: tidy include paths -->
+
+<!-- build: pin the VC toolset version -->

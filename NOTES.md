@@ -65,3 +65,4 @@
 - mapped the object-palette registers.
 - guarded word accesses that cross a bank boundary.
 - factored timer resets through the P37 load.
+- routed banked writes through the bank-select register.

@@ -71,3 +71,4 @@
 - added the timer-overflow semantics
 - mapped the master-interrupt-enable register.
 - added the status-flag behaviour table
+- added a bank-select accessor for the upper RAM bank.

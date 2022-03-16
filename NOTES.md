@@ -67,3 +67,4 @@
 - factored timer resets through the P37 load.
 - routed banked writes through the bank-select register.
 - mapped the LY line-counter alias.
+- mapped the P8 serial data register.

@@ -69,3 +69,4 @@
 - mapped the LY line-counter alias.
 - mapped the P8 serial data register.
 - added the timer-overflow semantics
+- mapped the master-interrupt-enable register.

@@ -193,3 +193,5 @@
 <!-- build: tidy include paths -->
 
 <!-- build: pin the VC toolset version -->
+
+<!-- build: ignore generated vectors in clean -->

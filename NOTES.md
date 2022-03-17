@@ -74,3 +74,4 @@
 - added a bank-select accessor for the upper RAM bank.
 - added timer0 tick accumulation into TAC.
 - mapped P1 with the pull-up default.
+- mapped P35 with write-verify semantics.

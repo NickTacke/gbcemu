@@ -72,3 +72,4 @@
 - mapped the master-interrupt-enable register.
 - added the status-flag behaviour table
 - added a bank-select accessor for the upper RAM bank.
+- added timer0 tick accumulation into TAC.

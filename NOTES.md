@@ -73,3 +73,4 @@
 - added the status-flag behaviour table
 - added a bank-select accessor for the upper RAM bank.
 - added timer0 tick accumulation into TAC.
+- mapped P1 with the pull-up default.

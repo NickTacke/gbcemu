@@ -77,3 +77,4 @@
 - mapped P35 with write-verify semantics.
 - documented the exception/undefined-opcode path
 - documented the display-attribute semantics
+- documented the full instruction-coverage matrix

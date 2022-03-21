@@ -78,3 +78,4 @@
 - documented the exception/undefined-opcode path
 - documented the display-attribute semantics
 - documented the full instruction-coverage matrix
+- factored banking into the read accessor.

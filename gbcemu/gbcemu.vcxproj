@@ -195,3 +195,5 @@
 <!-- build: pin the VC toolset version -->
 
 <!-- build: ignore generated vectors in clean -->
+
+<!-- build: split debug and release property sheets -->

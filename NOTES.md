@@ -80,3 +80,4 @@
 - documented the full instruction-coverage matrix
 - factored banking into the read accessor.
 - clarified endianness and operand-size conventions
+- annotated the display-timing assumptions.

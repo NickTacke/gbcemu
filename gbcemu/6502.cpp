@@ -52,6 +52,7 @@ void CPU::Reset(Memory& memory)
 	JSRHandler = JSR(this);
 
 	LDAHandler = LDA(this);
+	JRAHandler = JRA(this);
 	JMPHandler = JMP(this);
 	XORXHandler = XORX(this);
 	ORXHandler = ORX(this);
@@ -330,6 +331,13 @@ u32 CPU::Execute(u32 Cycles, Memory& memory)
 		case INS_JMP:
 		{
 			JMPHandler.INS_JMP_H(Cycles, memory);
+			break;
+		}
+		
+		// JRA
+		case INS_JRA:
+		{
+			JRAHandler.INS_JRA_H(Cycles, memory);
 			break;
 		}
 		

@@ -173,3 +173,5 @@
 <!-- build: enable deterministic-iteration guard -->
 
 <!-- build: enable the address-sanitizer test config -->
+
+<!-- build: pin the VC toolset version -->

@@ -81,3 +81,4 @@
 - factored banking into the read accessor.
 - clarified endianness and operand-size conventions
 - annotated the display-timing assumptions.
+- added the interrupt-vector layout

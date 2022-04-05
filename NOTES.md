@@ -82,3 +82,4 @@
 - clarified endianness and operand-size conventions
 - annotated the display-timing assumptions.
 - added the interrupt-vector layout
+- mapped the P30-P34 port registers.

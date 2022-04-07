@@ -145,3 +145,4 @@ u32 CPU::Execute(u32 Cycles, Memory& memory)
 // cpu: annotate the exception/undefined-opcode path
 // cpu: tidy immediate-operand extraction
 // cpu: centralize status-flag updates
+// cpu: annotate register-alias resolution

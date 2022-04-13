@@ -9,3 +9,4 @@
 - added a troubleshooting note for common build failures.
 - documented the cycle-accounting semantics.
 - documented flag-update behaviour after ALU operations.
+- clarified endianness and operand-size conventions.

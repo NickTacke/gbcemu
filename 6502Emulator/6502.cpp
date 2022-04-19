@@ -149,3 +149,4 @@ u32 CPU::Execute(u32 Cycles, Memory& memory)
 // cpu: clarify cycle accounting for multi-cycle ops
 // cpu: guard out-of-range memory accesses
 // cpu: tidy the decode switch and drop dead branches
+// cpu: annotate the fetch/execute boundary

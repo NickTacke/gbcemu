@@ -52,6 +52,7 @@ void CPU::Reset(Memory& memory)
 	JSRHandler = JSR(this);
 
 	LDAHandler = LDA(this);
+	VCCHandler = VCC(this);
 	JNPHandler = JNP(this);
 	JPHandler = JP(this);
 	JCHandler = JC(this);
@@ -426,6 +427,13 @@ u32 CPU::Execute(u32 Cycles, Memory& memory)
 		case INS_JNP:
 		{
 			JNPHandler.INS_JNP_H(Cycles, memory);
+			break;
+		}
+		
+		// VCC
+		case INS_VCC:
+		{
+			VCCHandler.INS_VCC_H(Cycles, memory);
 			break;
 		}
 		

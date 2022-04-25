@@ -10,3 +10,4 @@
 - documented the cycle-accounting semantics.
 - documented flag-update behaviour after ALU operations.
 - clarified endianness and operand-size conventions.
+- documented the build path and current instruction coverage.

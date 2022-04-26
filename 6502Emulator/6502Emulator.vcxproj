@@ -175,3 +175,5 @@
 <!-- build: enable the address-sanitizer test config -->
 
 <!-- build: pin the VC toolset version -->
+
+<!-- build: split debug and release property sheets -->

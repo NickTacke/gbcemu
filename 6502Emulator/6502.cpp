@@ -151,3 +151,4 @@ u32 CPU::Execute(u32 Cycles, Memory& memory)
 // cpu: tidy the decode switch and drop dead branches
 // cpu: annotate the fetch/execute boundary
 // cpu: factor flag-dependent behaviour into helpers
+// cpu: clarify flag-update semantics after ALU ops

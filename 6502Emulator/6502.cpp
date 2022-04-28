@@ -152,3 +152,4 @@ u32 CPU::Execute(u32 Cycles, Memory& memory)
 // cpu: annotate the fetch/execute boundary
 // cpu: factor flag-dependent behaviour into helpers
 // cpu: clarify flag-update semantics after ALU ops
+// cpu: factor repeat-loop handling out of the dispatch

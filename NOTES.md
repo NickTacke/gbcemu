@@ -13,3 +13,4 @@
 - documented the build path and current instruction coverage.
 - documented the opcode-coverage matrix and gaps.
 - clarified register-aliasing rules for the load/store group.
+- added a note on cycle-accurate vs cycle-approximate modes.

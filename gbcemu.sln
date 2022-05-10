@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "6502Emulator", "6502Emulator\6502Emulator.vcxproj", "{083E2660-2BBA-413C-8C4A-0B00808D7BC8}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gbcemu", "gbcemu\gbcemu.vcxproj", "{083E2660-2BBA-413C-8C4A-0B00808D7BC8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

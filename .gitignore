@@ -11,3 +11,4 @@ Debug/
 *.recipe
 *.log
 gen2.py
+gen.py

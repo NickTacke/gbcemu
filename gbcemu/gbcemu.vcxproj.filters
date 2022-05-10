@@ -36,7 +36,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="6502Emulator.cpp">
+    <ClCompile Include="gbcemu.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="6502.cpp">
